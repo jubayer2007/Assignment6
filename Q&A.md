@@ -4,5 +4,10 @@ Ans: The var & let is changeable but const is not changeable. Var use for only f
 2. What is the difference between map(), forEach(), and filter()?
 Ans: map() return data but forEach() can't return data. filter() use to find the find element.
 
+3. What are arrow functions in ES6?
+Ans: Arrow Function is not hoisted. It Implicit return. Example:
+const multiply = (a, b) => a * b; 
+console.log(multiply(10, 20));
+
 
 
