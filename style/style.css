@@ -1,0 +1,16 @@
+.active {
+    background-color: #15803D;
+    border-radius: 10px;
+    color: white;
+}; 
+
+@media (max-width: 550px) {
+    #card-container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    #card-container img {
+        height: 180px; /* ছোট স্ক্রিনে image ছোট করে দেবে */
+        object-fit: cover;
+    }
+}
