@@ -9,5 +9,10 @@ Ans: Arrow Function is not hoisted. It Implicit return. Example:
 const multiply = (a, b) => a * b; 
 console.log(multiply(10, 20));
 
+4. How does destructuring assignment work in ES6?
+Ans: Destructuring take the array or object destructure element then add with the first element.
+
+5. Explain template literals in ES6. How are they different from string concatenation?
+
 
 
